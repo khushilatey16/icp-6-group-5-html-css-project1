@@ -4,12 +4,7 @@ body{
     padding:0;
 }
 
-.navbar{
-    background-color: rgb(60, 59, 59);
-    height: 80px;
-    margin: 0;
-    padding: 0;
-}
+
 
 .gym-item-card{ 
     height: auto;
@@ -56,17 +51,17 @@ color:aliceblue;
 }
 
 .order-now-btn:hover{
-    box-shadow: 0px 0px 5px 3px white;
-    padding: 7px 25px;
-    transition: 0.4;
+    box-shadow: 0px 0px 2px 3px white;
+    padding: 5px 23px;
+    transition: 0.6;
     background-color: crimson;
     color: white;
     font-size: medium;
 }
 
 .gym-item-image{
-    height:350px;
-    width: 250px;
+    height:330px;
+    width: 230px;
     border: 3px solid black;
 }
 
@@ -76,7 +71,14 @@ color:aliceblue;
     padding: 10px;
     margin: 10px;
     flex-wrap: wrap;
-   
-
     
+}
+
+@media screen and(max-width: 500px){
+    .gym-item-image{
+    height: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
