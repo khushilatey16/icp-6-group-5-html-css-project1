@@ -19,8 +19,9 @@ body{
 
  .gym-item-card:hover{
     box-shadow: 0px 0px 2px 2px whitesmoke;
-    transition: 0.7;
+    transition: 0.4s ease;
     cursor: pointer;
+    transform: scale(1.06);
  }
 
 .gym-item-title{
@@ -48,12 +49,17 @@ color:aliceblue;
 
 .order-now-btn{
     border-radius: 5px ;
+    text-transform: uppercase;
+    display: flex;
+    align-items: flex-start;
+    justify-content: baseline;
+    
 }
 
 .order-now-btn:hover{
     box-shadow: 0px 0px 2px 3px white;
-    padding: 5px 23px;
-    transition: 0.6;
+    padding: 3px 20px;
+    transition: 0.6 ease;
     background-color: crimson;
     color: white;
     font-size: medium;
@@ -75,10 +81,10 @@ color:aliceblue;
 }
 
 @media screen and(max-width: 500px){
-    .gym-item-image{
+    .gym-item-image {
     height: 10px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-  
+    margin-right: auto;  
+}
 }
